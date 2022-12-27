@@ -4,15 +4,15 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+.container{
+    width: 100%;
+    background-image: url(../img/Background.png);
+    background-size: cover;
+    background-position: top;
 
-.container {
-width: 100%;
-background-image: url("../img/Background.png");
-background-size: cover;
-background-position: top;
 }
 
-.header {
+header{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -21,382 +21,172 @@ background-position: top;
     padding: 10px 30px;
 }
 
-.menu {
-display: flex;
-align-items: center;
+.menu{
+    display: flex;
 }
 
-.menu>ul {
+.menu>ul{
     display: flex;
     align-items: center;
     list-style: none;
-    
 }
 
-.menu>ul>li>a {
+.menu>ul>li>a{
     padding: 10px 20px;
     text-decoration: none;
     color: #111827;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-
+    font-weight: 600px;
 }
 
 .menu>ul>li>a:hover {
-   
-    color: #7C3AED;
-    
-
+    color: #541eb1;
 }
 
-.banner {
+.banner{
     max-width: 1200px;
     margin: 72px auto;
-    display: flex;
-    padding: 10px 30px;
+    display: grid;
+    padding: 0px 30px;
+    padding-bottom: 15px;
     grid-template-columns: 2fr 1fr;
 }
 
-.banner-content {
+.banner-content{
     margin-top: 96px;
 }
 
-.banner-content>h1 {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 72px;
-letter-spacing: -0.025em;
-font-feature-settings: 'liga' off;
-color: #111827;
-
+.banner-content>h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
 }
 
-.banner-content>p {
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-font-feature-settings: 'liga' off;
-color: #374151;
-margin-top: 16px;
+.banner-content>p{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
 }
 
-
-.store {
-
-}
-
-.get {
+.get{
     border-radius: 8px;
-    background: #7C3AED;
-    color: white;
-    padding: 16px 24px;
-    border: none;
+    background-color: #7C3AED;
     font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-font-feature-settings: 'liga' off;
-color: #FFFFFF;
-cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    transition: all .25s;
+    font-feature-settings: 'liga' off;
+    padding: 16px 24px;
+    color: white;
+    border: none;
 }
 
-.banner-content>div {
+.banner-content>div{
     margin-top: 32px;
     display: flex;
     gap: 16px;
 }
 
-.watch {
-padding: 16px 24px;
-background: transparent;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-font-feature-settings: 'liga' off;
-color: #7C3AED;
-border: none;
-display: flex;
-align-items: center;
-gap: 8px;
-cursor: pointer;
-border-radius: 8px;
+.get:hover{
+    background-color: #4b1c9b;
 }
 
-.get:hover {
-    background: #9e70ec;
-    
+.watch{
+    padding: 16px 24px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #7C3AED;
+    border: none;
+    transition: all .25s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
 }
 
-.watch:hover {
-    background: #e3d3ff;
-    }
+.watch:hover{
+    background-color: #dad1eb;
+    border-radius: 8px;
+}
 
-    .container1 {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 16px 112px;
-        gap: 10px;
-        
-        width: 1440px;
-        height: 142px;
-        
-        background: #FFFFFF;
-        
-    }
+.logo-brands{
+    max-width: 1200px;
+    margin: 10px auto;
+    border-top: 2px solid #E5E7EB;
+    border-bottom: 2px solid #E5E7EB;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
 
+.logo-brands>ul{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    list-style: none;
+}
 
+.features{
+    max-width: 1200px;
+    margin: 106px auto;
+}
 
+.features-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.features-content>h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
 
+.features-content>p{
+    margin-top: 8px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
 
-    .Logo_brands {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 0px;
-        gap: 24px;
-        justify-content: space-around;
-        padding-left: 161px;
-        padding-right: 161px;
-        
-        
-        width: 1216px;
-        height: 110px;
-
-    }
-
-    .divider1 {
-        width: 1216px;
-height: 1px;
-background: #E5E7EB;
-
-display: flex;
-align-items: center;
-    }
-
-    .divider2 {
-        width: 1216px;
-        height: 1px;
-        background: #E5E7EB;
-        
-        display: flex;
-        align-items: center;
-
-    }
-
- .container2 {
-    width: 1436px;
-height: 748px;
+.features-blocks{
+    margin-top: 64px;
     display: grid;
-    grid-template-areas: 
-    "header header header"
-    "content content content"
-    "content2 content2 content2";
- }
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 64px;
+    text-align: center;
+}
 
- .Tailor {
-    
-    grid-area: header;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
-
- .Tailor>h1 {
+.features-blocks>div>h3{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 60px;
-color: #111827
- }
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #111827;
+    margin-top: 24px;
+}
 
- .Tailor>p {
+.features-blocks>div>span{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-text-align: center;
-color: #111827
- }
-
- .cell1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
-
-
- }
-
- .icon1 {
-padding: 0px 176px 24px 176px;
- }
-
-
- .Robust-workflow {
-
-font-family: 'Inter';
-font-style: normal;
-color: #111827
- }
-
- .text1 {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #374151;
-text-align: center;
- }
-
- .cell2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
- }
-
- .icon2 {
-    padding: 0px 176px 24px 176px;
- }
-
- .Flexibility {
-    color: #111827
- }
-
- .text2 {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #374151;
-    text-align: center;
- }
-
- .cell3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-
- .icon3 {
-    padding: 0px 176px 24px 176px;
- }
-
- .User-friendly
- {
-    color: #111827
- }
-
- .text3 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #374151;
-    text-align: center;
- }
-
-
- .cell4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-
- .icon4 {
-    padding: 0px 176px 24px 176px;
- }
-
- .Multiple-layouts {
-    color: #111827
- }
-
- .text4 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #374151;
-    text-align: center;
- }
-
-
- .cell5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-
- .icon5 {
-    padding: 0px 176px 24px 176px;
- }
-
- .Better-components{
-    color: #111827
- }
-
- .text5 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #374151;
-    text-align: center;
- }
-
- .cell6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-
- .icon6 {
-    padding: 0px 176px 24px 176px;
- }
-
- .Well-organised {
-    color: #111827
- }
-
- .text6 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #374151;
-    text-align: center;
- }
-
- .cells-first {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    grid-area: content;
-
-    
- }
-
- .cells-second {
-    display: flex;
-    *grid-area: content;
-    flex-direction: row;
-    
-    
-    
-   
-   }
+    margin-top: 8px;
+}
