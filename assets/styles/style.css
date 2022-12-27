@@ -190,3 +190,104 @@ header{
     color: #374151;
     margin-top: 8px;
 }
+
+.stories {
+    background-color: #d5fafc;
+    height: 700px;
+    padding-bottom: 96px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.content>img {
+    position: absolute;
+    top: 60px;
+    z-index: 0;
+}
+
+.text {
+    margin-top: 120px;
+
+}
+
+.text>h3 {
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: -0.025em;
+font-feature-settings: 'liga' off;
+color: #111827;
+}
+
+.text>p {
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+font-feature-settings: 'liga' off;
+color: #111827;
+}
+
+.card {
+    justify-self: end;
+    margin-top: 64px;
+    width: 384px;
+    background-color: #fff;
+    padding: 32px;
+}
+
+.card>div {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 32px 1fr;
+}
+
+.p1 {
+    font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+
+
+font-feature-settings: 'liga' off;
+
+
+
+color: #111827;
+
+}
+
+.p2 {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    
+    font-feature-settings: 'liga' off;
+    
+    
+    color: #111827;
+}
+
+.p3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    
+    font-feature-settings: 'liga' off;
+    
+    color: #6B7280;
+}
+
+.column {
+    display: grid;
+    justify-content: end;
+    z-index: 1;
+    
+}
