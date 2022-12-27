@@ -134,3 +134,269 @@ border-radius: 8px;
 .watch:hover {
     background: #e3d3ff;
     }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 112px;
+        gap: 10px;
+        
+        width: 1440px;
+        height: 142px;
+        
+        background: #FFFFFF;
+        
+    }
+
+
+
+
+
+
+    .Logo_brands {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        justify-content: space-around;
+        padding-left: 161px;
+        padding-right: 161px;
+        
+        
+        width: 1216px;
+        height: 110px;
+
+    }
+
+    .divider1 {
+        width: 1216px;
+height: 1px;
+background: #E5E7EB;
+
+display: flex;
+align-items: center;
+    }
+
+    .divider2 {
+        width: 1216px;
+        height: 1px;
+        background: #E5E7EB;
+        
+        display: flex;
+        align-items: center;
+
+    }
+
+ .container2 {
+    width: 1436px;
+height: 748px;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "content content content"
+    "content2 content2 content2";
+ }
+
+ .Tailor {
+    
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .Tailor>h1 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+color: #111827
+ }
+
+ .Tailor>p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #111827
+ }
+
+ .cell1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+
+ }
+
+ .icon1 {
+padding: 0px 176px 24px 176px;
+ }
+
+
+ .Robust-workflow {
+
+font-family: 'Inter';
+font-style: normal;
+color: #111827
+ }
+
+ .text1 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #374151;
+text-align: center;
+ }
+
+ .cell2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ .icon2 {
+    padding: 0px 176px 24px 176px;
+ }
+
+ .Flexibility {
+    color: #111827
+ }
+
+ .text2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #374151;
+    text-align: center;
+ }
+
+ .cell3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .icon3 {
+    padding: 0px 176px 24px 176px;
+ }
+
+ .User-friendly
+ {
+    color: #111827
+ }
+
+ .text3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #374151;
+    text-align: center;
+ }
+
+
+ .cell4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .icon4 {
+    padding: 0px 176px 24px 176px;
+ }
+
+ .Multiple-layouts {
+    color: #111827
+ }
+
+ .text4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #374151;
+    text-align: center;
+ }
+
+
+ .cell5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .icon5 {
+    padding: 0px 176px 24px 176px;
+ }
+
+ .Better-components{
+    color: #111827
+ }
+
+ .text5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #374151;
+    text-align: center;
+ }
+
+ .cell6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .icon6 {
+    padding: 0px 176px 24px 176px;
+ }
+
+ .Well-organised {
+    color: #111827
+ }
+
+ .text6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #374151;
+    text-align: center;
+ }
+
+ .cells-first {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-area: content;
+
+    
+ }
+
+ .cells-second {
+    display: flex;
+    *grid-area: content;
+    flex-direction: row;
+    
+    
+    
+   
+   }
