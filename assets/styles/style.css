@@ -193,7 +193,8 @@ header{
 
 .stories {
     background-color: #d5fafc;
-    height: 700px;
+   
+    height: 892px;
     padding-bottom: 96px;
 }
 
@@ -233,30 +234,27 @@ font-feature-settings: 'liga' off;
 color: #111827;
 }
 
-.card {
+.card1 {
     justify-self: end;
     margin-top: 64px;
     width: 384px;
+    height: 396px;
     background-color: #fff;
     padding: 32px;
+    border-radius: 8px;
 }
 
-.card>div {
+.card1>div {
     margin-top: 32px;
     display: grid;
     grid-template-columns: 32px 1fr;
 }
 
 .p1 {
-    font-weight: 400;
+font-weight: 400;
 font-size: 18px;
 line-height: 28px;
-
-
 font-feature-settings: 'liga' off;
-
-
-
 color: #111827;
 
 }
@@ -266,11 +264,7 @@ color: #111827;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
- 
-    
     font-feature-settings: 'liga' off;
-    
-    
     color: #111827;
 }
 
@@ -278,16 +272,50 @@ color: #111827;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-
-    
     font-feature-settings: 'liga' off;
-    
     color: #6B7280;
 }
 
-.column {
+.column-left {
     display: grid;
     justify-content: end;
     z-index: 1;
     
+}
+
+.column-right {
+display: grid;
+justify-content: left;
+padding: 32px;
+}
+
+.card2 {
+    
+    margin-top: 196px;
+    width: 488px;
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.card2>div {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 32px 1fr;
+}
+
+.card3 {
+    
+    margin-top: 32px;
+    width: 384px;
+    height: 256px;
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.card3>div {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 32px 1fr;
 }
