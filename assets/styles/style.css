@@ -280,7 +280,6 @@ color: #111827;
     display: grid;
     justify-content: end;
     z-index: 1;
-    
 }
 
 .column-right {
@@ -318,4 +317,154 @@ padding: 32px;
     margin-top: 32px;
     display: grid;
     grid-template-columns: 32px 1fr;
+}
+
+.statistics {
+    max-width: 1200px;
+    margin: 106px auto;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.years>h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+
+}
+
+.years>p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+
+}
+
+.numbers {
+    width: 592px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);
+    grid-column-gap: 32px;
+    grid-row-gap: 40px;
+}
+
+.cell {
+    padding: 0px;
+    gap: 16px;
+    width: 280px;
+    height: 69px;
+    display: grid;
+    grid-template-areas: 
+    "img number"
+    "img info";
+    grid-template-rows: repeat(auto-fit);
+   
+}
+
+.cell>img {
+    align-items: center;
+    grid-area: img;
+}
+
+.cell>h4 {
+    grid-area: number;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+    left: 16px;
+}
+
+.cell>p {
+    grid-area: info;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+
+
+
+
+
+
+.tools {
+    max-width: 1200px;
+    margin: 106px auto;
+}
+
+.benefits {
+    width: 1216px;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.integrations {
+  
+}
+
+.integrations>h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+   
+
+}
+
+.integrations>p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+
+.app {
+position: relative;
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 696px;
+}
+
+.semicircle {
+    
+width: 540px;
+height: 270px;
+left: 78px;
+top: 0px;
+margin-right: 78px;
+display: flex;
+background: #EDE9FE;
+position: absolute;
+
+}
+
+.applications {
+    
+    width: 540px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 46px;
+    flex-wrap: wrap;
+    gap: 64px;
+   z-index: 1;
 }
