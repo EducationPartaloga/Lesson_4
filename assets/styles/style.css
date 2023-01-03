@@ -5,22 +5,29 @@
     font-family: 'Inter', sans-serif;
 }
 
-.container{
+.container-banner{
     background-image: url(../img/Background.png);
-    width: 100%;
-    height: 100%;
     background-size: cover;
     background-position: top;
-    padding-bottom: 15px;
+    
+}
+
+.container {
+    width: 100%;
 }
 
 header{
-    max-width: 1216px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .menu{
@@ -130,6 +137,10 @@ header{
     padding-bottom: 35px;
 }
 
+.mt-16 {
+    margin-top: 16px;
+}
+
 .logo-brands>ul{
     max-width: 900px;
     margin: 0 auto;
@@ -142,6 +153,11 @@ header{
 .features{
     max-width: 1200px;
     margin: 106px auto;
+}
+
+.ptb-96 {
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .features-content{
@@ -193,23 +209,21 @@ header{
 .comments{
     padding: 120px 0 96px 0;
     background-color: #D5FAFC;
-    gap: 32px;
+   
     
 }
 
 .content-comments{
     z-index: 1;
-    max-width: 1008px;
     display: flex;
     gap: 32px;
-    margin: 0 auto;
     position: relative;
+    justify-content: center;
 }
 
 
 .quote{
-    max-width: 1216px;
-    margin: 0 auto;
+    
     position: relative;
     z-index: 0;
 }
@@ -323,9 +337,7 @@ header{
 }
 
 .achievements{
-    max-width: 1216px;
     margin: 172px auto;
-    padding: 0.1px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -382,10 +394,9 @@ header{
 }
 
 .tools{
-    max-width: 1216px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .tools-content>h2{
@@ -403,13 +414,6 @@ header{
     line-height: 28px;
     color: #111827;
 }
-
-/* .tools-icon{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    gap: 64px;
-} */
 
 .tools-icon {
     background-image: url("../img/Vector.svg");
@@ -433,13 +437,10 @@ header{
 }
 
 .manage {
-    width: 100%;
     background-color: #1DB5BE;
 }
 
-.content {
-    max-width: 1216px;
-    margin: 0 auto;
+.content1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -456,37 +457,38 @@ header{
     margin: 111px 0;
 }
 
-.span {
+.tools-content>span {
     margin-top: 48px;
     display: block;
     margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+
 }
 
 .footer {
-    width: 1440px;
-    height: 288px;
     background: #000000;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+}
+
+.colum{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 64px 0
 }
 
 .about {
-    
     font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-font-feature-settings: 'liga' off;
-color: #FFFFFF;
-padding-left: 112px;
-margin-top: 64px;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
 
 }
 
 .download {
-    
     display: flex;
     justify-content: flex-start;
     gap: 24px;
@@ -495,9 +497,6 @@ margin-top: 64px;
     line-height: 24px;
     color: #FFFFFF;
     margin-top: 24px;
-   
-
-
 }
 
 .contact {
@@ -508,26 +507,28 @@ margin-top: 64px;
 
 .rights {
     font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-font-feature-settings: 'liga' off;
-color: #D1D5DB;
-
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: 'liga' off;
+    color: #D1D5DB;
     margin-top: 12px;
 }
 
 .app {
-    padding-right: 112px;
-    margin-top: 64px;
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    align-items: flex-end;
 }
 
-.app>span {
+.app>div>span {
     font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-font-feature-settings: 'liga' off;
-color: #D1D5DB;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #D1D5DB;
+}
+
+.tt{
+    display: grid;
+    gap: 16px;
 }
