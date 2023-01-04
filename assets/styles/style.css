@@ -80,6 +80,11 @@ header{
     font-size: 18px;
     line-height: 28px;
     font-feature-settings: 'liga' off;
+
+}
+
+.navigation {
+    display: none;
 }
 
 .get{
@@ -531,4 +536,67 @@ header{
 .tt{
     display: grid;
     gap: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .menu {
+        margin-left: 40px;
+        margin-top: 24px;
+    }
+    
+    .menu>ul {
+		display: none;
+	}
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-content {
+      margin: 0 auto;
+    }
+
+    .banner-content>h1{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        top: 80px;
+    }
+    
+    .banner-content>p{
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+   
+    .apps {
+        display: flex;
+        margin-top: 20px; 
+    }
+
+    .apps>a {
+     margin-left: 12px;
+    }
+
+    .banner-content>img {
+        object-fit: contain;
+    }
+
+
+    .navigation {
+    display: flex;
+    margin-left: 12px;
+    align-items: center;
+    margin-right: 40px;
+}
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.menu>ul {
+		display: block;
+	}
+	
 }
